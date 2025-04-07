@@ -1,4 +1,6 @@
 // import 'package:arun_2025/homepage.dart';
+import 'package:arun_2025/colpract.dart';
+import 'package:arun_2025/homepage.dart';
 import 'package:arun_2025/testhome.dart';
 import 'package:flutter/material.dart';
 
@@ -19,7 +21,8 @@ class MyApp extends StatelessWidget {
           seedColor: Color.fromARGB(255, 9, 158, 54),
         ),
       ),
-      home: Testhome(),
+      debugShowCheckedModeBanner: false,
+      home: ColPractice(),
     );
   }
 }
