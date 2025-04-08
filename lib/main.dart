@@ -2,6 +2,7 @@
 // import 'package:arun_2025/colpract.dart';
 // import 'package:arun_2025/homepage.dart';
 import 'package:arun_2025/RowColPratice.dart';
+import 'package:arun_2025/image.dart';
 // import 'package:arun_2025/rowpract.dart';
 // import 'package:arun_2025/testhome.dart';
 import 'package:flutter/material.dart';
@@ -20,11 +21,11 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(
-          seedColor: Color.fromARGB(255, 9, 158, 54),
+          seedColor: Color.fromARGB(255, 234, 125, 9),
         ),
       ),
       debugShowCheckedModeBanner: false,
-      home: Rowcolpratice(),
+      home: Images(),
     );
   }
 }
