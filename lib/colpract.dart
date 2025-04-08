@@ -16,6 +16,9 @@ class ColPractice extends StatelessWidget {
       ),
 
       body: Column(
+        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+        crossAxisAlignment: CrossAxisAlignment.center,
+        mainAxisSize: MainAxisSize.max,
         children: [
           Text("This is Column", style: TextStyle(fontSize: 28)),
           Container(width: 200, height: 200, color: Colors.red),
