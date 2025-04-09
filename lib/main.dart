@@ -1,10 +1,11 @@
 // import 'package:arun_2025/homepage.dart';
 // import 'package:arun_2025/colpract.dart';
 // import 'package:arun_2025/homepage.dart';
-import 'package:arun_2025/RowColPratice.dart';
-import 'package:arun_2025/image.dart';
+// import 'package:arun_2025/RowColPratice.dart';
+// import 'package:arun_2025/image.dart';
 // import 'package:arun_2025/rowpract.dart';
 // import 'package:arun_2025/testhome.dart';
+import 'package:arun_2025/planytdetailpage.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -25,7 +26,7 @@ class MyApp extends StatelessWidget {
         ),
       ),
       debugShowCheckedModeBanner: false,
-      home: Images(),
+      home: PlantDetailPage(), // Change this to your desired home page
     );
   }
 }
