@@ -5,7 +5,9 @@
 // import 'package:arun_2025/image.dart';
 // import 'package:arun_2025/rowpract.dart';
 // import 'package:arun_2025/testhome.dart';
+import 'package:arun_2025/buttonpage.dart';
 import 'package:arun_2025/planytdetailpage.dart';
+import 'package:arun_2025/sizebox.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -22,11 +24,11 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(
-          seedColor: Color.fromARGB(255, 234, 125, 9),
+          seedColor: Color.fromARGB(255, 23, 140, 10),
         ),
       ),
       debugShowCheckedModeBanner: false,
-      home: PlantDetailPage(), // Change this to your desired home page
+      home: SizeBoxs(), // Change this to your desired home page
     );
   }
 }
