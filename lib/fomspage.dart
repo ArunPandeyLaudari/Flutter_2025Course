@@ -14,6 +14,7 @@ class _FormPageState extends State<FormPage> {
   final GlobalKey<FormState> _nameFromKey = GlobalKey();
 
   bool switchvalue=false;
+  bool checkvalue=false;
   
   @override
   Widget build(BuildContext context) {
@@ -70,6 +71,14 @@ class _FormPageState extends State<FormPage> {
                switchvalue=value;
             });
             } ),
+
+            Checkbox(value: checkvalue, onChanged:(value){
+              setState(() {
+                checkvalue=value ?? false;
+              });
+            }),
+
+          
 
             ElevatedButton.icon(
               onPressed: () {
