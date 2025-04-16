@@ -24,7 +24,7 @@ class Rowcolpratice extends StatelessWidget {
             border: Border.all(color: Colors.blue, width: 2),
           ),
           child: Center(
-            child: Container(
+            child: SizedBox(
               height: 380,
               width: 260,
               child: Row(
@@ -45,7 +45,7 @@ class Rowcolpratice extends StatelessWidget {
                         ),
 
                         // Space for text
-                        Container(
+                        SizedBox(
                           height: 190, // Fill the remaining space
                           child: Center(
                             child: Text(

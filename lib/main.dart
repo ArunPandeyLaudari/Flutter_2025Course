@@ -5,9 +5,9 @@
 // import 'package:arun_2025/image.dart';
 // import 'package:arun_2025/rowpract.dart';
 // import 'package:arun_2025/testhome.dart';
-import 'package:arun_2025/buttonpage.dart';
-import 'package:arun_2025/planytdetailpage.dart';
-import 'package:arun_2025/sizebox.dart';
+// import 'package:arun_2025/TakingInput.dart';
+import 'package:arun_2025/fomspage.dart';
+// import 'package:arun_2025/sizebox.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -15,7 +15,7 @@ void main() {
 }
 
 class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+  const MyApp({super.key}); 
 
   // This widget is the root of your application.
   @override
@@ -28,7 +28,7 @@ class MyApp extends StatelessWidget {
         ),
       ),
       debugShowCheckedModeBanner: false,
-      home: SizeBoxs(), // Change this to your desired home page
+      home: FormPage(), // Change this to your desired home page
     );
   }
 }

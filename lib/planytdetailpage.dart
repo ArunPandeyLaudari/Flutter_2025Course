@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class PlantDetailPage extends StatelessWidget {
-  const PlantDetailPage({Key? key}) : super(key: key);
+  const PlantDetailPage({super.key});
 
   @override
   Widget build(BuildContext context) {
